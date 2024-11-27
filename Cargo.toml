@@ -1,0 +1,10 @@
+[package]
+name = "clean-architecture-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+futures = "0.3.31"
+sqlx = { version = "0.8.2", features = ["runtime-tokio-rustls", "postgres"] }
+tokio = { version = "1.41.1", features = ["full"] }
